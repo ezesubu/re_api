@@ -12,7 +12,6 @@ test:
   <<: *defaults
 
   # Secret tokens. Generate them with `rake secret`
-
   secret_key: ""
   devise_secret_key: ""
 
