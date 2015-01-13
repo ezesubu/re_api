@@ -50,6 +50,4 @@ test:
 #
 production:
   <<: *default
-  database: dev_api_readdict
-  username: myproject
-  password: <%= ENV['MYPROJECT_DATABASE_PASSWORD'] %>
+  database: readdict

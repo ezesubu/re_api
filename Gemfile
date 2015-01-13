@@ -59,14 +59,14 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 group :development do
-   gem 'better_errors'
+#   gem 'better_errors'
 #   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :mri_21, :rbx]
 #   gem 'foreman'
 #   gem 'html2haml'
 #   gem 'rails_layout'
-    gem 'pry'
-    gem 'pry-remote'
-    gem 'pry-rails'
-    gem 'pry-stack_explorer'
-    gem 'pry-byebug'
+#    gem 'pry'
+#    gem 'pry-remote'
+#    gem 'pry-rails'
+#    gem 'pry-stack_explorer'
+#    gem 'pry-byebug'
 end

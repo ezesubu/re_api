@@ -9,7 +9,7 @@ module V1
 
     get "secret" do
       guard!
-      { :secret => "only smart guys can see this ;)" }
+      { :secret => "Roberto prueba superada!!! :)" }
     end
 
     get "top_secret" do
