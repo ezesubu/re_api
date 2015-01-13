@@ -1,0 +1,25 @@
+
+defaults: &defaults
+
+development:
+  <<: *defaults
+
+  # Secret tokens. Generate them with `rake secret`
+  secret_key: "c4bd9277d10bd2de87105ff7f6f65153caa6699b56b69a2a451c9f07d7a343be2df954b9f8b623fb805afcaa27592721d972a34ae0adc0e3518d66392097fe39"
+  devise_secret_key: "3d673b75a406063e53768a573ef14a9e2d68e1b28699361dd3fd73a31724cb266c5bf9f0bf4279a0f191af4d0a6971d5cf253deb7de829f205da46417583dfb7"
+
+test:
+  <<: *defaults
+
+  # Secret tokens. Generate them with `rake secret`
+
+  secret_key: ""
+  devise_secret_key: ""
+
+production:
+  <<: *defaults
+
+  # Secret tokens. Generate them with `rake secret`
+  secret_key: "9ec29a1fc252d72caaa51fb97f261f8066b856559d62b258fa12d8e8ae4ae50d9572d36f87b9e8206d29eea5901ce6013b61e14de98ebaaf536bbe68ace6b1c3"
+  devise_secret_key: "eaae0746bf7dc926c42e48c812a52bfa9e69dea19ba817d784dd66cb71ecba1056c7d3015073516d69da2fc76156b0159189ddc18dae6261a69b7ee7854a2ff0"
+
