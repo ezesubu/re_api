@@ -16,4 +16,4 @@
 /tmp
 
 # Ignore settings file
-/config/application.yml
+#/config/application.yml
