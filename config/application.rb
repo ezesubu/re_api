@@ -1,7 +1,7 @@
 require File.expand_path('../boot', __FILE__)
-require 'open-uri'
-require 'rails/all'
 
+require 'rails/all'
+require 'open-uri'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
